@@ -88,7 +88,6 @@ async function BuscaPorCep() {
 
     if (data.erro === true) {
       areaResult.innerHTML = "<br><strong>CEP não encontrado<strong><br>";
-      areaResult.innerHTML += "Digite somente números";
       retornaEndereco();
     } else {
       formataEndereco(data, "cep");

@@ -99,7 +99,7 @@ footer {
 }
 
 footer>div {
-  margin: auto 0.5em auto auto;
+  margin: auto 0.1em auto auto;
   display: flex;
   flex-wrap: wrap;
 }
